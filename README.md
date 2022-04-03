@@ -14,7 +14,7 @@ A journey from  **Colors of Apple** to a **Vibrant Dark theme** built for  **Vis
 
 &nbsp;
 # Screenshots
-![image](images/Screenshot.png) 
+![image](Screenshot.png) 
 
 &nbsp;
 # Support
