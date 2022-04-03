@@ -1,0 +1,59 @@
+{
+  "name": "shades-of-apple",
+  "displayName": "Shades of Apple",
+  "publisher": "Dreamcatch3r",
+  "description": "Shades-of-Apple is an dark theme based on the color palette made from different color shades of the fruit apple.The theme is an mixture of joyful vision and also satisfies the desperate need of darkness in development environment. ",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream-catcher45/Shades-of-Apple-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/dream-catcher45/Shades-of-Apple-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#09131b",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "keywords": [
+    "dreamcatcher",
+    "dreamcatcher themes",
+    "dark theme",
+    "shades of apple",
+    "shades",
+    "apple",
+    "red",
+    "blue",
+    "green",
+    "dark",
+    "aesthetic",
+    "shadesofapple",
+    "opensource"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shades of Apple",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3",
+    "vscode-theme-generator": "*"
+  }
+}
